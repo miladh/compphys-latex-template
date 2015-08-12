@@ -1,7 +1,7 @@
-uiofysmaster
+compphys-latex-template
 ============
 
-LaTeX package that provides a front page and other snacks for master theses at the Physics departement at the University of Oslo.
+LaTeX package that provides a front page and other snacks 
 
 Usage
 -----
@@ -10,11 +10,11 @@ Just clone this project into
 
     /home/yourusername/texmf/tex/latex/
 
-If the folder does not exist, you need to create it first. Now your LaTeX documents should accept the uiofysmaster package. An example document is shown below:
+If the folder does not exist, you need to create it first. Now your LaTeX documents should accept the compphysLatexTemplate package. An example document is shown below:
 
 master-thesis.tex:
 ```latex
-\documentclass[twoside,english]{uiofysmaster}
+\documentclass[twoside,english]{compphysLatexTemplate}
 
 %\bibliography{references}
 
@@ -55,7 +55,7 @@ By default, the maketitle command will generate the front page, but it will not 
 
 front-page.tex:
 ```latex
-\documentclass[twoside,english]{uiofysmaster}
+\documentclass[twoside,english]{compphysLatexTemplate}
 \geometry{a4paper,includeall,bindingoffset=0cm,margin=3cm,
             marginparsep=0cm,marginparwidth=0cm,top=2cm}
 
