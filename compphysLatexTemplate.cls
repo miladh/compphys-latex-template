@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% UiO Physics Master Thesis Template
+% Compphys latex Template
 %
 % Created by Milad Hobbi Mobarhan, Sigve Bøe Skattum and Svenn-Arne Dragly
 % Some parts are inspired by a template from www.latextemplates.com, originally created by
@@ -11,7 +11,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1996/12/01]
-\ProvidesClass{uiofysmaster}
+\ProvidesClass{compphysLatexTemplate}
               [2012/08/22 v1.0
    LaTeX document class]
 \def\baseclass{book}
@@ -121,64 +121,64 @@
 %----------------------------------------------------------------------------------------
 %       FRONT PAGE DESIGN
 %----------------------------------------------------------------------------------------
-
-\RequirePackage{iftex}
-\RequirePackage{graphicx}
-\renewcommand{\maketitle}{
-\pagenumbering{roman}
-\thispagestyle{empty}
-\begin{center}        % Sentrerer teksten
-  % Tittel
-  \ \\
-  \vspace{10mm}          % Vertikalt mellomrom
-  \LARGE
-  \textsc{\@title} \\
-  \small
-  \vspace{10mm}
-  {by} \\
-  \vspace{5mm}
-  % Forfatter
-  \large
-  {\@author} \\
-  \vspace{25mm}
-  \Large
-%   {\bf{\textsl{THESIS}}} \\
-  {\textsc{Thesis}} \\
-%   \textsl{for the degree of} \\
-  {\small for the degree of} \\
-  \vspace{2mm}
-  
-%   {\bf{\textsl{\degreename}}} \\
-  {\textsc{\degreename}} \\
-  \vspace{15mm}
-%   {\large \textsl {(\degreenameno)}}\\
-%   \vspace{5m}
-%   \ifXeTeX
-    \centerline{\includegraphics[width=5cm,height=5cm]{figures/apollonseglet/Apollonseglet/UiO_Segl_cmyk.pdf}}
-%   \else
-%     \centerline{\includegraphics[width=5cm,height=5cm]{figures/apollonseglet/Apollonseglet/UiO_Segl_cmyk.eps}}
-%   \fi
-  \vspace{15mm}
-  % \textsl{Avdeling for mekanikk, Matematisk institutt} \\
-%   \textsl{\facultyname} \\
-  \large
-  \facultyname \\
-%   \textsl{\universityname} \\
-  \universityname \\
-  % Maaned, aar
-  \vspace{5mm}
-  % \vspace{10mm}
-  \normalsize
-%   \textsl{\@date} \\
-  \@date \\
-  \vspace{4mm}
-  \normalsize
-  % \textsl{Mechanics Division, Department of Mathematics} \\
-%   \textsl{\facultynameno} \\
-%   \textsl{\universitynameno} \\
-\end{center}
-\clearemptydoublepage
-}
+%
+%\RequirePackage{iftex}
+%\RequirePackage{graphicx}
+%\renewcommand{\maketitle}{
+%\pagenumbering{roman}
+%\thispagestyle{empty}
+%\begin{center}        % Sentrerer teksten
+%  % Tittel
+%  \ \\
+%  \vspace{10mm}          % Vertikalt mellomrom
+%  \LARGE
+%  \textsc{\@title} \\
+%  \small
+%  \vspace{10mm}
+%  {by} \\
+%  \vspace{5mm}
+%  % Forfatter
+%  \large
+%  {\@author} \\
+%  \vspace{25mm}
+%  \Large
+%%   {\bf{\textsl{THESIS}}} \\
+%  {\textsc{Thesis}} \\
+%%   \textsl{for the degree of} \\
+%  {\small for the degree of} \\
+%  \vspace{2mm}
+%  
+%%   {\bf{\textsl{\degreename}}} \\
+%  {\textsc{\degreename}} \\
+%  \vspace{15mm}
+%%   {\large \textsl {(\degreenameno)}}\\
+%%   \vspace{5m}
+%%   \ifXeTeX
+%    \centerline{\includegraphics[width=5cm,height=5cm]{figures/apollonseglet/Apollonseglet/UiO_Segl_cmyk.pdf}}
+%%   \else
+%%     \centerline{\includegraphics[width=5cm,height=5cm]{figures/apollonseglet/Apollonseglet/UiO_Segl_cmyk.eps}}
+%%   \fi
+%  \vspace{15mm}
+%  % \textsl{Avdeling for mekanikk, Matematisk institutt} \\
+%%   \textsl{\facultyname} \\
+%  \large
+%  \facultyname \\
+%%   \textsl{\universityname} \\
+%  \universityname \\
+%  % Maaned, aar
+%  \vspace{5mm}
+%  % \vspace{10mm}
+%  \normalsize
+%%   \textsl{\@date} \\
+%  \@date \\
+%  \vspace{4mm}
+%  \normalsize
+%  % \textsl{Mechanics Division, Department of Mathematics} \\
+%%   \textsl{\facultynameno} \\
+%%   \textsl{\universitynameno} \\
+%\end{center}
+%\clearemptydoublepage
+%}
 
 \makeatletter
 \def\pagenumberingnoreset#1{%
@@ -196,4 +196,4 @@
 \pagenumbering{arabic}
 }
 
-% \input{listings}
+%\input{listings}
